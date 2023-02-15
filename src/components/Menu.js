@@ -1,12 +1,14 @@
+import '../App.css';
+
 function Menu(){
     return(
-        <header>
+        <header className='Menu'>
             <h3>
-                Dashboard
-                Widget
-                Reviews
-                Customers
-                Online Analysis
+                Dashboard <br /><br />
+                Widget<br /><br />
+                Reviews<br /><br />
+                Customers<br /><br />
+                Online Analysis<br /><br />
                 Settings
             </h3>
         </header>
